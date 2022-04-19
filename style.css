@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Red Hat Display', sans-serif;
+}
+	body {
+		background-color: hsl(225, 100%, 94%);
+		height: 100vh;
+		background-image: url(pattern-background-desktop.svg);
+	}
+	.main {
+		background-color: hsl(0, 0%, 100%);
+		width: 25rem;
+		height: 37rem;
+		margin: auto;
+		margin-top: 4rem;
+		border-radius: 1rem;
+	}
+	.main img {
+		width: 100%;
+		border-radius: 1rem 1rem 0 0;
+	}
+	.main h1 {
+		text-align: center;
+		margin-top: 2rem;
+		font-weight: 900;
+		font-size: 1.7rem;
+		font-family: 'Red Hat Display', sans-serif;
+		color: hsl(226, 34%, 25%);
+	}
+	
+	.main p {
+		text-align: center;
+		font-size: 16px;
+		padding-top: 1rem;
+		color: hsl(225, 24%, 71%);
+		font-family: 'Red Hat Display', sans-serif;
+		line-height: 1.4rem;
+		font-weight: 500;
+	}
+	.mid {
+		width: 20rem;
+		height: 5rem;
+		background-color: hsl(230, 75%, 98%);
+		margin: auto;
+		border-radius: 1rem;
+		margin-top: 1rem;
+	}
+	.mid ul {
+		list-style: none;
+		display: flex;
+	}
+	
+	.mid li img {
+		width: 50%;
+		margin-top: 1.4rem;
+		margin-left: 1.6rem;
+	}
+	.mid li h4 {
+		margin-top: 1.3rem;
+		margin-left: .3rem;
+	}
+	
+	a {
+		color: blue;
+	}
+	footer p button {
+		background: hsl(245, 75%, 52%);
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		width: 300px;
+		height: 40px;
+		border-radius: 0.5rem;
+		border: none;
+		margin-top: 1rem;
+		box-shadow:0 10px 30px rgba(41, 14, 212, 0.475)
+	}
+
+
